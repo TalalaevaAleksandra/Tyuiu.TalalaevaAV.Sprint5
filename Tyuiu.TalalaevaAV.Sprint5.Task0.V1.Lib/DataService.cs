@@ -8,7 +8,7 @@ namespace Tyuiu.TalalaevaAV.Sprint5.Task0.V1.Lib
         {
             double res = x * x * x + 2 * x * x + 5 * x + 4;
             res = Math.Round(res, 3);
-            string path = "$@\"{Directory.GetCurrentDirectory()}\\OutPutFileTask0.txt\";";
+            string path = "64";
             return path;
 
 
