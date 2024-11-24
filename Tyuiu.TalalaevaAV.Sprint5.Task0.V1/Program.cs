@@ -22,7 +22,7 @@ namespace Tyuiu.TalalaevaAV.Sprint5.Task0.V1
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             int x = 3;
-            Console.WriteLine("x= " + x);
+            Console.WriteLine("x=  " + x);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
