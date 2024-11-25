@@ -8,7 +8,7 @@ namespace Tyuiu.TalalaevaAV.Sprint5.Task1.V6.Lib
         {
             string path = Path.GetTempPath();
             string path_new = Path.Combine(path, "OutPutFileTask1.txt");
-            FileInfo fileInfo = new FileInfo(path);
+            FileInfo fileInfo = new FileInfo(path_new);
             bool fileExists= fileInfo.Exists;
 
             if (fileExists) 
@@ -23,14 +23,14 @@ namespace Tyuiu.TalalaevaAV.Sprint5.Task1.V6.Lib
                 strY= Convert.ToString(y);
                 if (x != stopValue)
                 {
-                    File.AppendAllText(path, strY + Environment.NewLine);
+                    File.AppendAllText(path_new, strY + Environment.NewLine);
                 }
                 else 
                 {
-                    File.AppendAllText(path, strY);
+                    File.AppendAllText(path_new, strY);
                 }
             }
-            return path;
+            return path_new;
         }
     }
 }
