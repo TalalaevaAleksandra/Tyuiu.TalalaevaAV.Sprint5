@@ -29,19 +29,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.TalalaevaAV.Sprint5.T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.TalalaevaAV.Sprint5.Task2.V9.Test", "Tyuiu.TalalaevaAV.Sprint5.Task2.V9.Test\Tyuiu.TalalaevaAV.Sprint5.Task2.V9.Test.csproj", "{763D197C-4AB9-4CAB-9D2B-0529F76E92AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint5.Task3.V24", "Tyuiu.TalalaevaAV.Sprint5.Task3.V24\Tyuiu.TalalaevaAV.Sprint5.Task3.V24.csproj", "{4B6B9925-4589-4509-85C1-C1334CADE04B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.TalalaevaAV.Sprint5.Task3.V24", "Tyuiu.TalalaevaAV.Sprint5.Task3.V24\Tyuiu.TalalaevaAV.Sprint5.Task3.V24.csproj", "{4B6B9925-4589-4509-85C1-C1334CADE04B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint5.Task3.V24.Lib", "Tyuiu.TalalaevaAV.Sprint5.Task3.V24.Lib\Tyuiu.TalalaevaAV.Sprint5.Task3.V24.Lib.csproj", "{482E59E8-7FB9-4232-AD80-0B5A75D9A646}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.TalalaevaAV.Sprint5.Task3.V24.Lib", "Tyuiu.TalalaevaAV.Sprint5.Task3.V24.Lib\Tyuiu.TalalaevaAV.Sprint5.Task3.V24.Lib.csproj", "{482E59E8-7FB9-4232-AD80-0B5A75D9A646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint5.Task3.V24.Test", "Tyuiu.TalalaevaAV.Sprint5.Task3.V24.Test\Tyuiu.TalalaevaAV.Sprint5.Task3.V24.Test.csproj", "{86EE9CD9-A5D7-40BB-A2E0-FE19D481F216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.TalalaevaAV.Sprint5.Task3.V24.Test", "Tyuiu.TalalaevaAV.Sprint5.Task3.V24.Test\Tyuiu.TalalaevaAV.Sprint5.Task3.V24.Test.csproj", "{86EE9CD9-A5D7-40BB-A2E0-FE19D481F216}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{47BAC451-13F5-4438-BA96-DB9B94219E72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint5.Task4.V24", "Tyuiu.TalalaevaAV.Sprint5.Task4.V24\Tyuiu.TalalaevaAV.Sprint5.Task4.V24.csproj", "{11C68648-EA8E-4254-BDD9-D74DE4ADAB29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.TalalaevaAV.Sprint5.Task4.V24", "Tyuiu.TalalaevaAV.Sprint5.Task4.V24\Tyuiu.TalalaevaAV.Sprint5.Task4.V24.csproj", "{11C68648-EA8E-4254-BDD9-D74DE4ADAB29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint5.Task4.V24.Lib", "Tyuiu.TalalaevaAV.Sprint5.Task4.V24.Lib\Tyuiu.TalalaevaAV.Sprint5.Task4.V24.Lib.csproj", "{B8303219-42C3-4B35-AFD9-89525005BAEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.TalalaevaAV.Sprint5.Task4.V24.Lib", "Tyuiu.TalalaevaAV.Sprint5.Task4.V24.Lib\Tyuiu.TalalaevaAV.Sprint5.Task4.V24.Lib.csproj", "{B8303219-42C3-4B35-AFD9-89525005BAEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint5.Task4.V24.Test", "Tyuiu.TalalaevaAV.Sprint5.Task4.V24.Test\Tyuiu.TalalaevaAV.Sprint5.Task4.V24.Test.csproj", "{5C3C0A07-6B53-4454-AFCD-9C21ED06FB7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.TalalaevaAV.Sprint5.Task4.V24.Test", "Tyuiu.TalalaevaAV.Sprint5.Task4.V24.Test\Tyuiu.TalalaevaAV.Sprint5.Task4.V24.Test.csproj", "{5C3C0A07-6B53-4454-AFCD-9C21ED06FB7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task5", "Task5", "{BECF3AD7-C7AF-40F8-A7BC-066900581F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint5.Task5.V30", "Tyuiu.TalalaevaAV.Sprint5.Task5.V30\Tyuiu.TalalaevaAV.Sprint5.Task5.V30.csproj", "{F3C59735-86F4-41C8-B83E-D8B4037BA019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint5.Task5.V30.Lib", "Tyuiu.TalalaevaAV.Sprint5.Task5.V30.Lib\Tyuiu.TalalaevaAV.Sprint5.Task5.V30.Lib.csproj", "{AF457C83-1DA6-4ECB-B867-E3E683A65EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint5.Task5.V30.Test", "Tyuiu.TalalaevaAV.Sprint5.Task5.V30.Test\Tyuiu.TalalaevaAV.Sprint5.Task5.V30.Test.csproj", "{99BEE239-30CB-47DD-9C94-DC893CAB533C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +117,18 @@ Global
 		{5C3C0A07-6B53-4454-AFCD-9C21ED06FB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C3C0A07-6B53-4454-AFCD-9C21ED06FB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C3C0A07-6B53-4454-AFCD-9C21ED06FB7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C59735-86F4-41C8-B83E-D8B4037BA019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C59735-86F4-41C8-B83E-D8B4037BA019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C59735-86F4-41C8-B83E-D8B4037BA019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C59735-86F4-41C8-B83E-D8B4037BA019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF457C83-1DA6-4ECB-B867-E3E683A65EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF457C83-1DA6-4ECB-B867-E3E683A65EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF457C83-1DA6-4ECB-B867-E3E683A65EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF457C83-1DA6-4ECB-B867-E3E683A65EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99BEE239-30CB-47DD-9C94-DC893CAB533C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BEE239-30CB-47DD-9C94-DC893CAB533C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BEE239-30CB-47DD-9C94-DC893CAB533C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BEE239-30CB-47DD-9C94-DC893CAB533C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +149,9 @@ Global
 		{11C68648-EA8E-4254-BDD9-D74DE4ADAB29} = {47BAC451-13F5-4438-BA96-DB9B94219E72}
 		{B8303219-42C3-4B35-AFD9-89525005BAEA} = {47BAC451-13F5-4438-BA96-DB9B94219E72}
 		{5C3C0A07-6B53-4454-AFCD-9C21ED06FB7A} = {47BAC451-13F5-4438-BA96-DB9B94219E72}
+		{F3C59735-86F4-41C8-B83E-D8B4037BA019} = {BECF3AD7-C7AF-40F8-A7BC-066900581F96}
+		{AF457C83-1DA6-4ECB-B867-E3E683A65EE7} = {BECF3AD7-C7AF-40F8-A7BC-066900581F96}
+		{99BEE239-30CB-47DD-9C94-DC893CAB533C} = {BECF3AD7-C7AF-40F8-A7BC-066900581F96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C638CDC9-9024-4148-B678-9F279958213F}
