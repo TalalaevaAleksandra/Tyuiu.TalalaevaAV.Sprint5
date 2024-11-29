@@ -28,11 +28,12 @@ namespace Tyuiu.TalalaevaAV.Sprint5.Task7.V5.Lib
                             strLine += line[i];
                         }
                     }
+                    strLine = strLine.Trim();
                     File.AppendAllText(path_new, strLine+ Environment.NewLine);
                     strLine = "";
                 }
             }
-            return path_new.Replace(" .", ".");
+            return path_new;
         }
     }
 }
