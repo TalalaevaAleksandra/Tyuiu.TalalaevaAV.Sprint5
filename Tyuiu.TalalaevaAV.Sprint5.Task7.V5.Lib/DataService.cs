@@ -16,35 +16,51 @@ namespace Tyuiu.TalalaevaAV.Sprint5.Task7.V5.Lib
                 File.Delete(path_new);
             }
 
-            string strLine = "";
             using (StreamReader reader = new StreamReader(path))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
+                    // Собираем строку через StringBuilder
+                    var filteredLine = new System.Text.StringBuilder();
                     for (int i = 0; i < line.Length; i++)
                     {
-                        
-                        if ((line[i] != 'H') && (line[i] != 'e') && (line[i] != 'l') && (line[i] != 'o') && (line[i] != 'I') &&
-                            (line[i] != 'F') && (line[i] != 's') && (line[i] != 'M') && (line[i] != 'y') && (line[i] != 'i') &&
-                            (line[i] != 'r') && (line[i] != 'P') && (line[i] != 'g') && (line[i] != 'a') &&
-                            (line[i] != 'm') && (line[i] != 't'))
+                        // Проверяем, если символ разрешён
+                        if ((line[i] != 'H') && (line[i] != 'e') && (line[i] != 'l') && (line[i] != 'o') &&
+                            (line[i] != 'I') && (line[i] != 'F') && (line[i] != 's') && (line[i] != 'M') &&
+                            (line[i] != 'y') && (line[i] != 'i') && (line[i] != 'r') && (line[i] != 'P') &&
+                            (line[i] != 'g') && (line[i] != 'a') && (line[i] != 'm') && (line[i] != 't'))
                         {
-                            
-                            if (!(line[i] == ' ' && strLine.EndsWith(" ")))
+                            // Убираем лишние пробелы: добавляем пробел, только если последний символ не пробел
+                            if (!(line[i] == ' ' && (filteredLine.Length > 0 && filteredLine[^1] == ' ')))
                             {
-                                strLine += line[i];
+                                filteredLine.Append(line[i]);
                             }
                         }
                     }
 
-                    
-                    strLine = strLine.Trim();
+                    // Убираем пробелы по краям строки перед записью
+                    var finalLine = filteredLine.ToString().Trim();
 
-                    File.AppendAllText(path_new, strLine + Environment.NewLine);
-                    strLine = ""; 
+                    char[] charArray = finalLine.ToCharArray(); // Преобразуем строку в массив символов
+
+                    if (charArray.Length >= 11)
+                    {
+                        charArray[10] = '\0'; // Удаляем 10-й элемент (заменяем на '\0' для удаления)
+                    }
+
+                    // Собираем строку обратно, пропуская '\0'
+                    string result = new string(charArray).Replace("\0", "").Trim();
+
+
+                    // Записываем в файл
+                    if (!string.IsNullOrEmpty(result))
+                    {
+                        File.AppendAllText(path_new, result + Environment.NewLine);
+                    }
                 }
             }
+
             return path_new;
         }
     }

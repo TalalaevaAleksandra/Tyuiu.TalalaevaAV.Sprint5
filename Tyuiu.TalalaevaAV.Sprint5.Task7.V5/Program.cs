@@ -23,7 +23,7 @@ namespace Tyuiu.TalalaevaAV.Sprint5.Task7.V5
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
-            string path = @"C:\DataSprint5\InPutDataFileTask6V22.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask7V5.txt";
             Console.WriteLine("Данные находятся в файле " + path);
             string path1 = @"C:\Users\79044\AppData\Local\Temp\OutPutFileTask7.txt";
 
