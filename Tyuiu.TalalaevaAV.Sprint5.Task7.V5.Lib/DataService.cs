@@ -32,7 +32,7 @@ namespace Tyuiu.TalalaevaAV.Sprint5.Task7.V5.Lib
                     strLine = "";
                 }
             }
-            return path_new;
+            return path_new.Replace(" .", ".");
         }
     }
 }
