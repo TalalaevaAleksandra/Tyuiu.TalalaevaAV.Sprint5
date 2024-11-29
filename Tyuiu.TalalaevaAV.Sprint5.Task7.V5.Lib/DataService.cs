@@ -23,7 +23,7 @@ namespace Tyuiu.TalalaevaAV.Sprint5.Task7.V5.Lib
                 {
                     for (int i = 0; i < line.Length; i++) 
                     {
-                        if ((line[i] != 'H') && (line[i] != 'e') && (line[i] != 'l') && (line[i] != 'o')) 
+                        if ((line[i]==',') && (line[i]=='М')&& (line[i] == 'и') && (line[i] == 'р') && (line[i] == '!') && (line[i] == 'Э') && (line[i] == 'т') && (line[i] == 'о') && (line[i] == ' ')) 
                         {
                             strLine += line[i];
                         }
