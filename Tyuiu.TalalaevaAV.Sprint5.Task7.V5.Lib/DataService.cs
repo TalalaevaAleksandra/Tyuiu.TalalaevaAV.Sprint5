@@ -15,22 +15,34 @@ namespace Tyuiu.TalalaevaAV.Sprint5.Task7.V5.Lib
             {
                 File.Delete(path_new);
             }
+
             string strLine = "";
-            using (StreamReader reader = new StreamReader(path)) 
+            using (StreamReader reader = new StreamReader(path))
             {
                 string line;
-                while ((line = reader.ReadLine()) != null) 
+                while ((line = reader.ReadLine()) != null)
                 {
-                    for (int i = 0; i < line.Length; i++) 
+                    for (int i = 0; i < line.Length; i++)
                     {
-                        if ((line[i]!='H') && (line[i]!='e')&& (line[i] != 'l') && (line[i] != 'o') && (line[i] != 'I') && (line[i] != 'F') && (line[i] != 's') && (line[i] != 'M') && (line[i] != 'y') &&(line[i] != 'i') && (line[i] != 'r') && (line[i] != 'P') && (line[i] != 'g') && (line[i] != 'a') && (line[i] != 'm') && (line[i] != 't')) 
+                        
+                        if ((line[i] != 'H') && (line[i] != 'e') && (line[i] != 'l') && (line[i] != 'o') && (line[i] != 'I') &&
+                            (line[i] != 'F') && (line[i] != 's') && (line[i] != 'M') && (line[i] != 'y') && (line[i] != 'i') &&
+                            (line[i] != 'r') && (line[i] != 'P') && (line[i] != 'g') && (line[i] != 'a') &&
+                            (line[i] != 'm') && (line[i] != 't'))
                         {
-                            strLine += line[i];
+                            
+                            if (!(line[i] == ' ' && strLine.EndsWith(" ")))
+                            {
+                                strLine += line[i];
+                            }
                         }
                     }
+
+                    
                     strLine = strLine.Trim();
-                    File.AppendAllText(path_new, strLine+ Environment.NewLine);
-                    strLine = "";
+
+                    File.AppendAllText(path_new, strLine + Environment.NewLine);
+                    strLine = ""; 
                 }
             }
             return path_new;
