@@ -31,7 +31,7 @@ namespace Tyuiu.TalalaevaAV.Sprint5.Task7.V5
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            path1=ds.LoadDataAndSave(path);
+            path1=ds.LoadDataAndSave(path).Replace(" .",".");
             Console.WriteLine(path1);
             Console.ReadKey();
         }
